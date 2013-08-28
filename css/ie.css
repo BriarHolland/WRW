@@ -1,0 +1,12 @@
+/*------------------------------------ 
+	
+	WEBSITE HANDCODED BY POLLEN
+	www.pollencollective.co.nz
+	
+------------------------------------*/
+.opacity100{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+}
+.svg{display:none;}
+

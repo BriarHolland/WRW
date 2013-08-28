@@ -1,0 +1,365 @@
+/*------------------------------------ 
+	
+	WEBSITE HANDCODED BY POLLEN
+	www.pollencollective.co.nz
+	
+------------------------------------*/
+
+/* ==========================================================================
+   Jansbury CSS Reset
+   ========================================================================== */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+html,body {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,th,var {font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+
+/* ==========================================================================
+   Just a font to the face
+   ========================================================================== */
+
+
+
+
+
+
+/* ==========================================================================
+   Normals
+   ========================================================================== */
+
+* {margin: auto;padding: 0;text-decoration:none;list-style: none outside none;-webkit-font-smoothing: antialiased;}
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+img {vertical-align: middle;}
+fieldset {border: 0;margin: 0;padding: 0;}
+textarea {resize: vertical;}
+.chromeframe {margin: 0.2em 0;background: #ccc;color: #000;padding: 0.2em 0;}
+html{height:100%;}
+
+/* ==========================================================================
+   IE Message
+   ========================================================================== */
+
+.iemess{display:none;margin: 20px auto;width: 50%;line-height:2em;font-size: 2em;text-align:center;}
+.lt-ie8 .iemess{display: block;} 
+.lt-ie8 .iemess a{color: #4e4c4c;} 
+.lt-ie8 .iewrap{display: none;}
+
+/* ==========================================================================
+   Span Classes
+   ========================================================================== */
+
+/* ==========================================================================
+   Main Css
+   ========================================================================== */
+
+
+body{ /*corbert*/
+
+}
+
+a{
+  font-size: 0.75em;
+  text-decoration: none;    
+  color:#000000;
+  transition: all 150ms ease-in;
+  -webkit-transition: all 150ms ease-in;
+	-moz-transition: all 150ms ease-in;
+	-o-transition: all 150ms ease-in;
+	-ms-transition: all 150ms ease-in;
+}
+
+a:hover{
+    color:#ffffff;
+}
+h2{ /*Corbert*/
+  font-size: 0.875em;
+  text-transform: uppercase;
+}
+h3{ /*garamond 3 lt std*/
+  font-size: 1.125em;
+  font-style: italic;
+}
+h4{ /*corbert*/
+  font-size: 0.625em;
+  text-transform: uppercase;
+}
+p{
+  font-size: 0.625em;
+}
+
+
+
+/*-------header--------*/
+.mainNav{
+  width:61%;
+  margin-left:19.5%;
+  background-color:blue;
+  margin-top:70px;
+}
+
+.mainNav li{
+  float:left;
+  display:inline-block;
+  margin:0 1%;
+} 
+
+.mainNav img{
+  width:119px;
+  margin-top:-55px;
+}
+
+/*---------content---------*/
+
+.content{
+  margin: 20px 0 20px 0;
+  width:100%;
+}
+.heading{
+  text-align: center;
+}
+
+
+
+/*-------product---------*/
+.product{
+  width:75%;
+  margin:20px auto 0 12.5%;
+  background-color:blue;
+}
+
+.singleProd{
+  background-color:gold;
+  width:25%;
+  float:left;
+}
+
+.singleProd img{
+  width:100%;
+}
+.singleProd:nth-child(even){
+  margin:0 12.5% 0 12.5%;
+}
+
+.product a{
+  float:right;
+}
+
+/*--------gallery--------*/
+
+.galleryContain{
+  background-color:gainsboro;
+  width:100%;
+  margin-top:20px;
+  padding-top:20px;
+}
+
+.gallery{
+  width:75%;
+  margin:20px auto 20px 12.5%;
+}
+
+.gallery img{
+  float:left;
+  margin:0.5%;
+  width:24%;
+}
+
+.btnGallery{
+  margin:20px auto 20px auto;
+  background-color: #f79889;
+  width:194px;
+  height:39px;
+  text-align: center;
+}
+
+.btnGallery a{
+  font-size: 0.75em;
+  text-transform: uppercase;
+  color:#f7f7f7;
+  line-height: 40px;
+  /*corbert*/
+}
+
+
+
+/*footer*/
+footer{
+  position:relative;
+  padding:5px 20px 35px 20px;
+}
+
+footer p{
+  float:left;
+}
+.right{
+  float:right
+}
+
+footer img{
+  width:68px;
+  position:absolute;
+  top: -5px;
+  left:48%;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+	@media screen and (max-width:768px){
+	
+	
+	}   
+	@media screen and (max-width:735px){
+	
+	
+	}  
+	@media screen and (max-width:684px){
+		
+		
+	}
+	@media screen and (max-width:480px){
+	
+	   			
+	}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
