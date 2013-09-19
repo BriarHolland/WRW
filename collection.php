@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>WRW &#38; CO.</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="geo.region" content="NZ-WKO" />
-        <meta name="geo.placename" content="Raglan" />
-        <meta name="geo.position" content="-37.801406;174.871794" />
-        <meta name="ICBM" content="-37.801406, 174.871794" />
-        <meta name="viewport" content="width=device-width">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta content='user-scalable=no, width=device-width' name='viewport'>
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <!--[if lt IE 7]><link rel="stylesheet" href="css/ie.css"><![endif]-->
-    </head>
-    <body>
-    <div class="wrapper">
-   <header>
-        <nav class="mainNav clearfix">
-            <ul> 
-            <li><a href="index.html">HOME</a></li>
-            <li>&#8764;</li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li>&#8764;</li>
-            <li><a href="collection.html">COLLECTION</a></li>
-            <li><a href="index.html"><img src="i/logo.png" alt="logo" /></a></li>
-            <li><a href="about.html">PRESS</a></li>
-            <li>&#8764;</li>
-            <li><a href="gallery.html">GALLERY</a></li>
-            <li>&#8764;</li>
-            <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-    <header>
+<?php include('header.php'); ?>
 
         <img class="headerImg" src="i/headerImg.jpg" alt="header"></img>
 
@@ -51,7 +11,7 @@
 
                 <div class="singleProd">
                    <figure>
-                        <a class="fancybox-thumb" data-fancybox-group="project1" title="chair one" href="i/chair.png">
+                        <a class="fancybox-thumb" data-fancybox-group="project1" title="chair one" href="i/windows.png">
                             <img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project1" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project1" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
@@ -59,11 +19,12 @@
                         
                        <figcaption><p>larger <span class=raquo>+</span></p></figcaption>
                     </figure>
-                    <span class="imgUnder"></span>
+                    <div class="imgUnder"></div>
                 <div class="prodDetail">
                     <h3>One Chair</h3>
-                    <p>This is the description of the first chair listed for the furniture website that I am currently building. This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
-                    <a href="#">larger <span class="raquo">&#187;</span></a>
+                    <p>This is the description of the first chair listed for the furniture website that I am currently building. 
+                    	This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
+<!--                     <a href="#">larger <span class="raquo">+</span></a> -->
                 </div><!--/prodDetail-->
                 </div><!--/singleProd-->
 
@@ -80,8 +41,9 @@
                     <span class="imgUnder"></span>
                 <div class="prodDetail">
                     <h3>One Chair</h3>
-                    <p>This is the description of the first chair listed for the furniture website that I am currently building. This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
-                    <a href="#">larger <span class="raquo">&#187;</span></a>
+                    <p>This is the description of the first chair listed for the furniture website that I am currently building. 
+                    	This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
+                    <!-- <a href="#">larger <span class="raquo">+</span></a> -->
                 </div><!--/prodDetail-->
                 </div><!--/singleProd-->
 
@@ -99,7 +61,7 @@
                 <div class="prodDetail">
                     <h3>One Chair</h3>
                     <p>This is the description of the first chair listed for the furniture website that I am currently building. This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
-                    <a href="#">larger <span class="raquo">&#187;</span></a>
+<!--                     <a href="#">larger <span class="raquo">+</span></a> -->
                 </div><!--/prodDetail-->
                 </div><!--/singleProd-->
 
@@ -117,7 +79,7 @@
                 <div class="prodDetail">
                     <h3>One Chair</h3>
                     <p>This is the description of the first chair listed for the furniture website that I am currently building. This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
-                    <a href="#">larger <span class="raquo">&#187;</span></a>
+<!--                     <a href="#">larger <span class="raquo">+</span></a> -->
                 </div><!--/prodDetail-->
                 </div><!--/singleProd-->
 
@@ -135,7 +97,7 @@
                 <div class="prodDetail">
                     <h3>One Chair</h3>
                     <p>This is the description of the first chair listed for the furniture website that I am currently building. This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
-                    <a href="#">larger <span class="raquo">&#187;</span></a>
+<!--                     <a href="#">larger <span class="raquo">+</span></a> -->
                 </div><!--/prodDetail-->
                 </div><!--/singleProd-->
 
@@ -153,7 +115,7 @@
                 <div class="prodDetail">
                     <h3>One Chair</h3>
                     <p>This is the description of the first chair listed for the furniture website that I am currently building. This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
-                    <a href="#">larger <span class="raquo">&#187;</span></a>
+<!--                     <a href="#">larger <span class="raquo">+</span></a> -->
                 </div><!--/prodDetail-->
                 </div><!--/singleProd-->
                 
@@ -161,25 +123,4 @@
 
         </div><!--content-->
 
-
-        <footer>
-        <p>&#169; 2013 WRW &#38; CO.</p>
-        <a href="http://pollencollective.co.nz" target="_blank"><img src="i/plane.png" alt="plane" /></a>
-        <p class="right">Pollen</p>
-        </footer>
-    </div><!--/wrapper-->
-
-        <link rel="stylesheet" type="text/css" href="http://fancyapps.com/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
-        <link rel="stylesheet" type="text/css" href="http://fancyapps.com/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=2.1.5" />
-        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <script type="text/javascript" src="http://fancyapps.com/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-        
-        <script type="text/javascript" src="http://fancyapps.com/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=2.1.5"></script>
-        
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-
-
-    </body>
-</html>
+<?php include('footer.php'); ?>

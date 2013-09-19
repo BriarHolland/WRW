@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>WRW &#38; CO.</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="geo.region" content="NZ-WKO" />
-        <meta name="geo.placename" content="Raglan" />
-        <meta name="geo.position" content="-37.801406;174.871794" />
-        <meta name="ICBM" content="-37.801406, 174.871794" />
-        <meta name="viewport" content="width=device-width">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta content='user-scalable=no, width=device-width' name='viewport'>
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <!--[if lt IE 7]><link rel="stylesheet" href="css/ie.css"><![endif]-->
-    </head>
-    <body>
-    <div class="wrapper">
-   <header>
-        <nav class="mainNav clearfix">
-            <ul> 
-            <li><a href="index.html">HOME</a></li>
-            <li>&#8764;</li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li>&#8764;</li>
-            <li><a href="collection.html">COLLECTION</a></li>
-            <li><a href="index.html"><img src="i/logo.png" alt="logo" /></a></li>
-            <li><a href="about.html">PRESS</a></li>
-            <li>&#8764;</li>
-            <li><a href="gallery.html">GALLERY</a></li>
-            <li>&#8764;</li>
-            <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-    <header>
+<?php include('header.php'); ?>
 
         <img class="headerImg" src="i/headerImg.jpg" alt="header"></img>
 
@@ -48,6 +8,8 @@
     <h4 class="heading">GALLERY</h4>
     
     <div class="gallery clearfix">
+    
+
 
         <div class="singleGal">
             <figure>
@@ -61,6 +23,23 @@
                     </figure>
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
+            </div><!--/galDescription-->
+        </div><!--/singleGal-->
+
+        <div class="singleGal">
+            <figure>
+                        <a class="fancybox-thumb" data-fancybox-group="project3" title="chair one" href="i/chair.png">
+                            <img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb hide" data-fancybox-group="project3" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb hide" data-fancybox-group="project3" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb hide" data-fancybox-group="project3" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+                        
+                       <figcaption><p>larger <span class=raquo>+</span></p></figcaption>
+                    </figure>
+            <div class="galDescription">
+                <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -76,6 +55,7 @@
                     </figure>
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -91,6 +71,7 @@
                     </figure>
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -106,6 +87,7 @@
                     </figure>
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -121,6 +103,7 @@
                     </figure>
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -136,21 +119,7 @@
                     </figure>
             <div class="galDescription">
                 <h3>Title</h3>
-            </div><!--/galDescription-->
-        </div><!--/singleGal-->
-
-        <div class="singleGal">
-            <figure>
-                        <a class="fancybox-thumb" data-fancybox-group="project2" title="chair one" href="i/chair.png">
-                            <img src="i/chair.png" alt="" /></a>
-                        <a class="fancybox-thumb hide" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
-                        <a class="fancybox-thumb hide" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
-                        <a class="fancybox-thumb hide" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
-                        
-                       <figcaption><p>larger <span class=raquo>+</span></p></figcaption>
-                    </figure>
-            <div class="galDescription">
-                <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -166,6 +135,7 @@
             </figure>
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -182,6 +152,7 @@
 
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -198,6 +169,7 @@
 
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -214,6 +186,7 @@
 
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
 
@@ -230,27 +203,12 @@
 
             <div class="galDescription">
                 <h3>Title</h3>
+                <p>*description text here*</p>
             </div><!--/galDescription-->
         </div><!--/singleGal-->
-
-   
-
 
     </div><!--/gallery-->
 
 </div><!--content-->
 
-        <footer>
-        <p>&#169; 2013 WRW &#38; CO.</p>
-        <a href="http://pollencollective.co.nz" target="_blank"><img src="i/plane.png" alt="plane" /></a>
-        <p class="right">Pollen</p>
-        </footer>
-    </div><!--/wrapper-->
-
-        <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>-->
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-        <script src="js/vendor/jquery.easing-1.3.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
-</html>
+<?php include('footer.php'); ?>

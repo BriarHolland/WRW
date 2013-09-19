@@ -1,3 +1,9 @@
+//greyscale to color fade.
+$(".header img").hover(
+    function () {
+        $(this).animate($(this).css("-webkit-filter" , "grayscale('0'%)"), 300);
+    }
+);
 
 $('.imgOne').backstretch("i/imgSlider01.jpg");
 $('.imgTwo').backstretch("i/imgSlider02.jpg");
@@ -33,6 +39,8 @@ function resizeMe() {
 		"margin-left": slideDist
 	});
 }
+
+
 $nextBtn.click(function() {
 	if (currentIndex < lastIndex) {
 		newIndex = currentIndex + 1;
@@ -77,37 +85,43 @@ var $singleImg = $(".singleGal img"),
 
 //figcaption hover
 
-	fadespeed = 500,
+	fadespeed = 300,
+	textSlide = 500,
 	$figures = $('figure');
 
 	$figures.find('figcaption').hide();
 
 	$figures.hover(function(){
 		$(this).find('figcaption').stop(true,true).fadeIn(fadespeed);
+		$("figcaption p").stop(true,true).animate({ 'padding-top' : 30 }, textSlide, 'easeOutExpo');
+
+		
 	},function(){
 		$(this).find('figcaption').stop(true,true).fadeOut(fadespeed);
+		$("figcaption p").stop(true,true).animate({ 'padding-top' : 15 }, textSlide, 'easeOutExpo');
+
 	});
 
 //fancybox click function
-
-
 	$('figcaption').click(function(){
 		$(this).siblings('a.fancybox-thumb').eq(0).trigger('click'); 
 		return false;
  	});
 
  		 	$('.hide').hide();
- 		 	 			
  			$('.fancybox-thumb').fancybox({
-					prevEffect : 'none',
-					nextEffect : 'none',
+	 				openEffect : 'elastic',
+					openSpeed  : 200,
+					closeEffect : 'elastic',
+					closeSpeed  : 200,
+					nextEffect: 'fade',
+					prevEffect: 'fade',
 					closeBtn  : true,
 					arrows    : true,
-					nextClick : true,
-
+					title: null,
 					helpers : {
 						thumbs : {
-							width  : 50,
+							width  : 75,
 							height : 50
 						}
 					}

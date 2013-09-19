@@ -1,53 +1,120 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>WRW &#38; CO.</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="geo.region" content="NZ-WKO" />
-        <meta name="geo.placename" content="Raglan" />
-        <meta name="geo.position" content="-37.801406;174.871794" />
-        <meta name="ICBM" content="-37.801406, 174.871794" />
-        <meta name="viewport" content="width=device-width">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta content='user-scalable=no, width=device-width' name='viewport'>
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <!--[if lt IE 7]><link rel="stylesheet" href="css/ie.css"><![endif]-->
-    </head>
-    <body>
-    <div class="wrapper">
-    <header>
-    <nav class="mainNav">
-        <ul> 
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">COLLECTION</a></li>
-        <li><a href="#"><img src="logo.jpg" alt="logo" /></a></li>
-        <li><a href="#">PRESS</a></li>
-        <li><a href="#">GALLERY</a></li>
-        <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav>
-    <header>
+ <?php include('header.php'); ?>
 
+       <img class="headerImg" src="i/headerImg.jpg" alt="header"></img>
+ 
+ 
+ <div class="contactContain clearfix">
+       <h2 class="heading">&#8764; contact &#8764;</h2>
 
-        <footer>
-        <p>&#169;2013 WRW &#38; CO.</p>
-        <img src="" alt="" />
-        <a href="http://pollencollective.co.nz" target="_blank"><img src="" alt="" /></a>
-        </footer>
-    </div><!--/wrapper-->
+       <div class="contact">
+           <div class="contactLeftCol">
+               <h3>Contact</h3>
+               <p>Please contact me for any specific requests or to discuss delivery</p>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-		<script src="js/vendor/jquery.easing-1.3.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
-</html>
+	             <div class="extraInfo">
+	             	<h5>William Worsp</h5>
+	               <p>027 526 0802</p>
+	               <p>wrworsp@gmail.com</p>
+	              </div>
+               
+               <div class="contactForm clearfix">
+
+								    <form class="contact-form form" id="customForm" action="mail-send.php" method="post">
+								     
+								      <div class="orderDetails">
+								       	<!--[if IE]><label for="name">Name / Company:</label><![endif]-->
+								        <input type="text" class="formtext" id="name" name="name" placeholder="Name" />
+								      </div>
+								      <div class="orderDetails">
+								        <!--[if IE]><label for="email">Email:</label><![endif]-->
+								        <input type="text" class="formtext" id="email" name="email" placeholder="Email"  />
+								      </div> 
+								      <div class="orderDetails">
+								        <!--[if IE]><label for="email">Subject:</label><![endif]-->
+								        <input type="text" class="formtext" id="subject" name="email" placeholder="Subject"  />
+								      </div>
+								      <div class="orderDetails">
+								        <!--[if IE]><label for="message">Message:</label><![endif]-->
+								        <textarea class="formtext" id="message" name="message"></textarea>
+								      </div>
+								       <p id="status"></p>
+								      <div class="orderIt">
+								        <input class="radiobutton submit" type="submit" value="Send" />
+								      </div>
+								      <input id="spam" class="hidden" name="spam" type="text" value="" />
+								    </form>
+							</div><?php // end .contactForm	?>
+           </div><!--leftCol-->
+           
+           
+           
+
+           <div class="contactRightCol">
+               <h3>Order</h3>
+               <p>Please use this order form to place an order</p>
+
+               <div class="orderFormCon clearfix">
+								<form id="orderForm" name="orderForm" action="#" method="post">
+									<div class="orderDetails">
+										<!--[if IE]><label for="name">Name:</label><![endif]-->
+										<input id="Oname" type="text" name="name" value="" placeholder="Name">
+									</div>
+									<div class="orderDetails">
+										<!--[if IE]><label for="email">Email:</label><![endif]-->
+										<input id="Oemail" type="email" name="email" value="" placeholder="Email">
+									</div>
+									<div class="orderDetails">
+										<!--[if IE]><label for="phone">Phone:</label><![endif]-->
+										<input id="Ophone" type="tel" name="phone" value="" placeholder="Phone"> 
+									</div>
+									<div class="orderDetails">
+										<!--[if IE]><label for="name">Address:</label><![endif]-->
+										<input id="address" type="text" name="address" value="" placeholder="Address">
+									</div>
+									<div class="orderDetails">
+										<!--[if IE]><label for="city">City:</label><![endif]-->
+										<input id="Ocity" type="text" name="city" value="" placeholder="City">
+									</div>
+									<div class="orderForm1">
+										<!--[if IE]><label for="table">Choose Table Top:</label><![endif]-->
+										<select class="orderSelect"  name="table" id="table">
+											<option class="greyMe" value="null">Choose Table Top:</option>
+											<option value="Table1">Table1</option>
+											<option value="Table2">Table2</option>			
+											<option value="Table3">Table3</option>
+											<option value="Table4">Table4</option>
+										</select>
+									</div>
+									<div class="orderForm2">
+										<!--[if IE]><label for="base">Choose The Base:</label><![endif]-->
+										<select class="orderSelect" id="base" name="base">
+											<option value="null">Choose The Base:</option>
+											<option value="Base2">Base3</option>			
+											<option value="Base3">Base3</option>
+										</select>
+									</div>
+									<div class="orderDetails">
+										<!--[if IE]><label for="orderMessage">City:</label><![endif]-->
+										<textarea class="formtext" placeholder="Message" id="message" name="message"></textarea>
+									</div>
+									<div class="orderIt">
+										<input class="submit" type="submit" name="submit" value="Order" />
+									</div>
+						</form>
+						
+					</div><!--end .orderformCon-->
+
+           </div><!--rightCol-->
+           
+           <div class="social">
+            	<span class="sm">Social Media</span>
+	           <span class="fac">Facebook</span>
+	           <span class="pin">Pintrest</span>
+           
+           </div>
+
+       </div><!--/contact-->
+       </div>
+   </div>
+
+ <?php include('footer.php'); ?>
