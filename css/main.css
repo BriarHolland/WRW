@@ -194,7 +194,6 @@ li.logoUl{
 }
 
 .mask{
- /*  margin-top:-35px; */
   height:400px;
   width:100%;
   overflow:hidden;
@@ -207,23 +206,30 @@ li.logoUl{
 }
 
 .prevBttn{
-  width:51px;
-  height:48px;
+  width:50px;
+  height:50px;
   position:absolute;
   left:2%;
   top:176px;
   background:url("../i/prevBtn.png") no-repeat;
   cursor: pointer;
+  opacity: 1;
 }
 
 .nextBttn{
-  width:51px;
-  height:48px;
+  width:50px;
+  height:50px;
   position:absolute;
   right:2%;
   top:176px;
   background:url("../i/nxtBtn.png");
   cursor: pointer;
+  opacity: 1;
+}
+
+.nextBttn:hover,.prevBttn:hover{
+	opacity: 0.7;
+	
 }
 /*---------content---------*/
 
@@ -233,6 +239,7 @@ li.logoUl{
 }
 .heading{
   text-align: center;
+  text-transform: uppercase;
 }
 
 /*-------product---------*/
@@ -306,23 +313,40 @@ li.logoUl{
   width:24%;
 }
 
+.gallery figcaption {
+	background-color: rgba(255,255,255,.5);
+	position: absolute;
+	z-index: 100;
+	top: 4px;
+	width: 24%;
+	height: 99%;
+	left: 4px;
+}
+
 .btnGallery a{
   margin:0 auto 20px auto;
-  width:194px;
   display:block;
-  height:40px;
-  background-color:#f79889;
-  border-bottom: 3px solid #E58076;
-  font-size: 0.75em;
   text-transform: uppercase;
   text-align:center;
-  color:#f7f7f7;
-  line-height: 40px;
-  font-weight: bold;
-  letter-spacing: 1px;
+	background-color: #f79889;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #F7F7F7;
+	font-size: 0.750em;
+	height: 40px;
+	width:194px;
+	line-height: 40px;
+	font-weight: bold;
+	font-family: 'corbertregular', helvetica, arial, sans-serif;
+	margin-top: 2px;
+	border: none;
+	border-bottom: 3px solid #e58076;
+  
+  
 }
 .btnGallery a:hover{
-  background-color:#F4aea6;
+
+
 }
 
 .btnGallery a:active{
@@ -503,7 +527,8 @@ figcaption p{
 	margin-top: 9%;
 }
 .contactForm{
-	margin-top: 15%
+	margin-top: 13%;
+	
 }
 
 

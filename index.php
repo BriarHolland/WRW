@@ -23,7 +23,7 @@
                 <div class="prodDetail">
                     <h3>One Chair</h3>
                     <p>This is the description of the first chair listed for the furniture website that I am currently building. This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
-                    <a href="#">more <span class="raquo">&#187;</span></a>
+                    <a href="collection.php">more <span class="raquo">&#187;</span></a>
                 </div><!--/prodDetail-->
                 </div><!--/singleProd-->
 
@@ -33,7 +33,7 @@
                 <div class="prodDetail">
                     <h3>One Chair</h3>
                     <p>This is the description of the first chair listed for the furniture website that I am currently building. This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
-                    <a href="#">more <span class="raquo">&#187;</span></a>
+                    <a href="collection.php">more <span class="raquo">&#187;</span></a>
                 </div><!--/prodDetail-->
                 </div><!--/singleProd-->
 
@@ -43,11 +43,9 @@
                 <div class="prodDetail">
                     <h3>One Chair</h3>
                     <p>This is the description of the first chair listed for the furniture website that I am currently building. This is and interesting chair, needless to say all the chairs are particularly original and one of a kind. </p>
-                    <a href="#">more <span class="raquo">&#187;</span></a>
+                    <a href="collection.php">more <span class="raquo">&#187;</span></a>
                  </div><!--/prodDetail-->
                 </div><!--/singleProd-->
-
-                
                 
             </div><!--/product-->
 
@@ -59,21 +57,25 @@
                <div class="wrapper clearfix">
                 <h2 class="heading">&#8764; Custom Furniture &#8764;</h2>
                 <h4 class="heading">Gallery</h4>
-
-                    <div class="gallery clearfix">
-                        <img src="i/chair.png" alt="chair" />
-                        <img src="i/chair.png" alt="chair" />
-                        <img src="i/chair.png" alt="chair" />
-                        <img src="i/chair.png" alt="chair" />
-                        <img src="i/chair.png" alt="chair" />
-                        <img src="i/chair.png" alt="chair" />
-                        <img src="i/chair.png" alt="chair" />
-                        <img src="i/chair.png" alt="chair" />
-                    </div> <!--.gallery-->  
-                    
-                    <div class="btnGallery clearfix">
-                        <a href="gallery.php">View The Gallery</a>  
-                    </div>   
+              
+                  <div class="gallery clearfix">
+                    <figure>
+                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
+                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
+                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
+                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
+                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
+                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
+                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
+                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
+                                           <figcaption><p>more<span class="raquo"> &raquo;</span></p></figcaption> 
+                    </figure>
+										
+                  </div> <!--.gallery-->  
+                                      
+                  <div class="btnGallery clearfix">
+                    <a href="gallery.php">View The Gallery</a>  
+                  </div>   
             </div><!--/wrapper2-->
         </div><!--/galleryContain-->
 
