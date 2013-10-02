@@ -148,9 +148,6 @@ p{
 /* the photo to be animated via filters */
 .headerImg { -webkit-animation: testAnim 6s ease-out forwards;}
 
-
-
-
 /*-------header--------*/
 header{
 	  margin-top:36px;
@@ -158,22 +155,23 @@ header{
 
 .mainNav{
   width:100%;
-  margin:0 auto;
-  height: 95px;
+  height: 130px;
 }
 
 .mainNav ul{
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	min-width: 90px;
 }
+
 li.logoUl{
-	margin: 0 3% !important;	
+	margin: 0 2% !important;
+	width: 140px;
+	height: 140px;
 }
 .mainNav li{
   display:inline-block;
-  margin:0 .5%;
+	margin:0 .5%;	
 } 
 .mainNav li a{
 	font-size: 0.875em;
@@ -181,10 +179,12 @@ li.logoUl{
 }
 
 .mainNav img{
-  width:131px;
+	max-width: 140px;
   margin-top:-23px;
   position:relative;
   z-index: 100;
+  -webkit-box-shadow: 0px 40px 50px -60px #3e3e3e;
+	box-shadow: 0px 40px 50px -60px #3e3e3e;
 }
 
 /*------slider-----*/
@@ -292,6 +292,8 @@ li.logoUl{
 
 /*--------gallery home--------*/
 
+
+
 .galleryContain{
   background-color:#F3F3F3;
   width:100%;
@@ -299,11 +301,28 @@ li.logoUl{
   left: 0;
   right: 0;
 }
-.gallery, .about{
+.featured, .gallery, .about{
   width:100%;
   margin:40px auto 20px;
 }
-.gallery{
+
+.featuredGal{
+ 	float: left;
+	margin: 0.5%;
+	width: 24%;
+
+}
+
+.featuredGal img{
+  display:block;
+  margin:0;
+  width:100%;
+  margin-bottom: 5px;
+  position:relative;
+
+}
+
+.gallery, .featured{
 	width: 75%;
 }
 
@@ -317,10 +336,8 @@ li.logoUl{
 	background-color: rgba(255,255,255,.5);
 	position: absolute;
 	z-index: 100;
-	top: 4px;
 	width: 24%;
 	height: 99%;
-	left: 4px;
 }
 
 .btnGallery a{
@@ -328,10 +345,11 @@ li.logoUl{
   display:block;
   text-transform: uppercase;
   text-align:center;
-	background-color: #f79889;
+	background-color: #f5f5f5;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	color: #F7F7F7;
+
+	color: #e58076;
 	font-size: 0.750em;
 	height: 40px;
 	width:194px;
@@ -340,14 +358,40 @@ li.logoUl{
 	font-family: 'corbertregular', helvetica, arial, sans-serif;
 	margin-top: 2px;
 	border: none;
-	border-bottom: 3px solid #e58076;
-  
-  
+	border: 2px solid #e58076;
+ }
+ 
+/*
+ .featuredGal{
+	width:24%;
+	float: left;
+	background-color:red;
 }
+
+.featuredGal figure{
+	width:100%;
+}
+
+.featuredGal figcaption{
+		top:4px;
+	left:3px;
+}
+/*
+.featuredGal figure{
+		top:4px;
+	left:3px;
+float: left;
+}
+*/
+
+ 
+ 
 .btnGallery a:hover{
-
+background-color: #fff;
 
 }
+
+
 
 .btnGallery a:active{
   margin-top: 2px;
@@ -390,7 +434,7 @@ figure{
 }
 
 figcaption{
-  background-color:rgba(255,255,255,.5);
+  background-color:rgba(255,255,255,.7);
   position:absolute;
   z-index:100;
   top:0;

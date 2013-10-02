@@ -58,20 +58,68 @@
                 <h2 class="heading">&#8764; Custom Furniture &#8764;</h2>
                 <h4 class="heading">Gallery</h4>
               
-                  <div class="gallery clearfix">
-                    <figure>
-                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
-                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
-                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
-                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
-                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
-                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
-                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
-                    <a href="gallery.php"><img src="i/chair.png" alt="chair" /></a>
-                                           <figcaption><p>more<span class="raquo"> &raquo;</span></p></figcaption> 
-                    </figure>
+                  <div class="featured clearfix">
+	                  
+	                  <div class="featuredGal ">
+		                  <figure>
+	                        <a class="fancybox-thumb" data-fancybox-group="prev1" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+	                       <figcaption><p>preview <span class="raquo">+</span></p></figcaption>
+	                    </figure>
+	                  </div>
 										
-                  </div> <!--.gallery-->  
+										 <div class="featuredGal ">
+		                  <figure>
+	                        <a class="fancybox-thumb" data-fancybox-group="prev2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+	                       <figcaption><p>preview <span class="raquo">+</span></p></figcaption>
+	                    </figure>
+	                  </div>
+										
+	                  <div class="featuredGal ">
+		                  <figure>
+	                        <a class="fancybox-thumb" data-fancybox-group="prev3" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+	                       <figcaption><p>preview <span class=raquo>+</span></p></figcaption>
+	                    </figure>
+	                  </div>
+										
+	                  <div class="featuredGal ">
+		                  <figure>
+	                        <a class="fancybox-thumb" data-fancybox-group="prev4" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+	                       <figcaption><p>preview <span class=raquo>+</span></p></figcaption>
+	                    </figure>
+	                  </div>
+										
+	                  <div class="featuredGal ">
+		                  <figure>
+	                        <a class="fancybox-thumb" data-fancybox-group="prev5" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+	                       <figcaption><p>preview <span class=raquo>+</span></p></figcaption>
+	                    </figure>
+	                  </div>
+										
+										<div class="featuredGal ">
+		                  <figure>
+	                        <a class="fancybox-thumb" data-fancybox-group="prev6" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+	                       <figcaption><p>preview <span class=raquo>+</span></p></figcaption>
+	                    </figure>
+	                  </div>
+	                  
+	                  <div class="featuredGal ">
+		                  <figure>
+	                        <a class="fancybox-thumb" data-fancybox-group="prev7" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+	                       <figcaption><p>preview <span class=raquo>+</span></p></figcaption>
+	                    </figure>
+	                  </div>
+										
+										<div class="featuredGal ">
+		                  <figure>
+	                        <a class="fancybox-thumb" data-fancybox-group="prev8" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
+	                       <figcaption><p>preview <span class=raquo>+</span></p></figcaption>
+	                    </figure>
+	                  </div>
+										
+										
+                  
+                  
+                                     </div> <!--.gallery-->  
                                       
                   <div class="btnGallery clearfix">
                     <a href="gallery.php">View The Gallery</a>  

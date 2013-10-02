@@ -11,8 +11,7 @@
 
                 <div class="singleProd">
                    <figure>
-                        <a class="fancybox-thumb" data-fancybox-group="project1" title="chair one" href="i/windows.png">
-                            <img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb" data-fancybox-group="project1" title="chair one" href="i/windows.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project1" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project1" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project1" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
@@ -30,8 +29,7 @@
 
                 <div class="singleProd middle">
                     <figure>
-                        <a class="fancybox-thumb" data-fancybox-group="project2" title="chair one" href="i/chair.png">
-                            <img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
@@ -49,8 +47,7 @@
 
                 <div class="singleProd">
                     <figure>
-                        <a class="fancybox-thumb" data-fancybox-group="project3" title="chair one" href="i/chair.png">
-                            <img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb" data-fancybox-group="project3" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project3" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project3" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project3" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
@@ -67,8 +64,7 @@
 
                 <div class="singleProd">
                     <figure>
-                        <a class="fancybox-thumb" data-fancybox-group="project4" title="chair one" href="i/chair.png">
-                            <img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb" data-fancybox-group="project4" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project4" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project4" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project4" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
@@ -85,8 +81,7 @@
 
                 <div class="singleProd middle">
                     <figure>
-                        <a class="fancybox-thumb" data-fancybox-group="project5" title="chair one" href="i/chair.png">
-                            <img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb" data-fancybox-group="project5" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project5" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project5" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project5" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
@@ -103,8 +98,7 @@
 
                 <div class="singleProd">
                     <figure>
-                        <a class="fancybox-thumb" data-fancybox-group="project6" title="chair one" href="i/chair.png">
-                            <img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb" data-fancybox-group="project6" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project6" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project6" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project6" title="chair one" href="i/chair.png"><img src="http://enpundit.com/wp-content/uploads/2012/11/cats-as-fonts-1.jpg" alt="" /></a>

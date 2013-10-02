@@ -13,8 +13,7 @@
 
         <div class="singleGal">
             <figure>
-                        <a class="fancybox-thumb" data-fancybox-group="project2" title="chair one" href="i/chair.png">
-                            <img src="i/chair.png" alt="" /></a>
+                        <a class="fancybox-thumb" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
                         <a class="fancybox-thumb hide" data-fancybox-group="project2" title="chair one" href="i/chair.png"><img src="i/chair.png" alt="" /></a>
